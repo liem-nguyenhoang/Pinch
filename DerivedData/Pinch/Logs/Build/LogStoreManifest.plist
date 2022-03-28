@@ -5,6 +5,75 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>0C93046A-F672-4FDF-BE75-C53BBB651B26</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0C93046A-F672-4FDF-BE75-C53BBB651B26.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Pinch project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Pinch</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Pinch</string>
+			<key>timeStartedRecording</key>
+			<real>670170746.49713802</real>
+			<key>timeStoppedRecording</key>
+			<real>670170748.65984499</real>
+			<key>title</key>
+			<string>Build Pinch</string>
+			<key>uniqueIdentifier</key>
+			<string>0C93046A-F672-4FDF-BE75-C53BBB651B26</string>
+		</dict>
+		<key>85479C8A-6C33-4BC5-85FD-532076008601</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>85479C8A-6C33-4BC5-85FD-532076008601.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Pinch project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Pinch</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build for Previews Pinch</string>
+			<key>timeStartedRecording</key>
+			<real>670170326.43932998</real>
+			<key>timeStoppedRecording</key>
+			<real>670170334.39660704</real>
+			<key>title</key>
+			<string>Build for Previews Pinch</string>
+			<key>uniqueIdentifier</key>
+			<string>85479C8A-6C33-4BC5-85FD-532076008601</string>
+		</dict>
+	</dict>
 </dict>
 </plist>
