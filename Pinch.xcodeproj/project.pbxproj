@@ -11,6 +11,7 @@
 		C543854D27F1FCCE006EEE1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C543854C27F1FCCE006EEE1D /* ContentView.swift */; };
 		C543854F27F1FCD0006EEE1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C543854E27F1FCD0006EEE1D /* Assets.xcassets */; };
 		C543855227F1FCD0006EEE1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C543855127F1FCD0006EEE1D /* Preview Assets.xcassets */; };
+		C5AF65E727F2B634009185C0 /* InfoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AF65E627F2B634009185C0 /* InfoPanelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		C543854C27F1FCCE006EEE1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C543854E27F1FCD0006EEE1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C543855127F1FCD0006EEE1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C5AF65E627F2B634009185C0 /* InfoPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPanelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				C543855A27F1FE3D006EEE1D /* Data */,
 				C543855927F1FE31006EEE1D /* View */,
 				C543855827F1FE27006EEE1D /* Screen */,
+				C543854A27F1FCCE006EEE1D /* PinchApp.swift */,
 				C543854E27F1FCD0006EEE1D /* Assets.xcassets */,
 				C543855027F1FCD0006EEE1D /* Preview Content */,
 			);
@@ -80,7 +83,7 @@
 		C543855927F1FE31006EEE1D /* View */ = {
 			isa = PBXGroup;
 			children = (
-				C543854A27F1FCCE006EEE1D /* PinchApp.swift */,
+				C5AF65E627F2B634009185C0 /* InfoPanelView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 			files = (
 				C543854D27F1FCCE006EEE1D /* ContentView.swift in Sources */,
 				C543854B27F1FCCE006EEE1D /* PinchApp.swift in Sources */,
+				C5AF65E727F2B634009185C0 /* InfoPanelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
