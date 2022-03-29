@@ -6,6 +6,40 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
+		<key>2EF93788-6B88-4ABD-A9EA-8F29F94AB0B4</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>2EF93788-6B88-4ABD-A9EA-8F29F94AB0B4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Pinch project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Pinch</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Pinch</string>
+			<key>timeStartedRecording</key>
+			<real>670227963.61357999</real>
+			<key>timeStoppedRecording</key>
+			<real>670228011.80101097</real>
+			<key>title</key>
+			<string>Run Pinch</string>
+			<key>uniqueIdentifier</key>
+			<string>2EF93788-6B88-4ABD-A9EA-8F29F94AB0B4</string>
+		</dict>
 		<key>30F1CD06-4A02-467A-8BB3-70D040CE4C8D</key>
 		<dict>
 			<key>className</key>
@@ -39,6 +73,142 @@
 			<string>Run Pinch</string>
 			<key>uniqueIdentifier</key>
 			<string>30F1CD06-4A02-467A-8BB3-70D040CE4C8D</string>
+		</dict>
+		<key>5046C7F7-A614-4B55-B33B-03A1B8B6CBC6</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>5046C7F7-A614-4B55-B33B-03A1B8B6CBC6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Pinch project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Pinch</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Pinch</string>
+			<key>timeStartedRecording</key>
+			<real>670227770.45825899</real>
+			<key>timeStoppedRecording</key>
+			<real>670227946.57383394</real>
+			<key>title</key>
+			<string>Run Pinch</string>
+			<key>uniqueIdentifier</key>
+			<string>5046C7F7-A614-4B55-B33B-03A1B8B6CBC6</string>
+		</dict>
+		<key>53434FE5-DE6D-4490-B57B-9DEE26426462</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>53434FE5-DE6D-4490-B57B-9DEE26426462.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Pinch project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Pinch</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Pinch</string>
+			<key>timeStartedRecording</key>
+			<real>670230265.06983101</real>
+			<key>timeStoppedRecording</key>
+			<real>670231111.30131996</real>
+			<key>title</key>
+			<string>Run Pinch</string>
+			<key>uniqueIdentifier</key>
+			<string>53434FE5-DE6D-4490-B57B-9DEE26426462</string>
+		</dict>
+		<key>9800D0A9-AF5E-413A-B12E-0A9BECB97AF8</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>9800D0A9-AF5E-413A-B12E-0A9BECB97AF8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Pinch project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Pinch</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Pinch</string>
+			<key>timeStartedRecording</key>
+			<real>670228035.64917505</real>
+			<key>timeStoppedRecording</key>
+			<real>670228414.50625205</real>
+			<key>title</key>
+			<string>Run Pinch</string>
+			<key>uniqueIdentifier</key>
+			<string>9800D0A9-AF5E-413A-B12E-0A9BECB97AF8</string>
+		</dict>
+		<key>B5316F47-41D1-49BF-8C44-E5A39DEC2018</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B5316F47-41D1-49BF-8C44-E5A39DEC2018.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Pinch project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Pinch</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Pinch</string>
+			<key>timeStartedRecording</key>
+			<real>670227619.81136894</real>
+			<key>timeStoppedRecording</key>
+			<real>670227762.29570198</real>
+			<key>title</key>
+			<string>Run Pinch</string>
+			<key>uniqueIdentifier</key>
+			<string>B5316F47-41D1-49BF-8C44-E5A39DEC2018</string>
 		</dict>
 	</dict>
 </dict>

@@ -10,9 +10,10 @@ import SwiftUI
 struct ContentView: View {
     // MARK: - PROPERTY
         
-    @State private var isAnimation: Bool = false
+    @State private var isAnimating: Bool = false
     @State private var imageScale: CGFloat = 1
     @State private var imageOffset: CGSize = .zero
+    @State private var isDrawerOpen: Bool = false
     
     // MARK: - FUNCTION
     
@@ -39,7 +40,7 @@ struct ContentView: View {
                     .cornerRadius(10)
                     .padding()
                     .shadow(color: .black.opacity(0.2), radius: 12, x: 2, y: 2)
-                    .opacity(isAnimation ? 1 : 0)
+                    .opacity(isAnimating ? 1 : 0)
                     .offset(x: imageOffset.width, y: imageOffset.height)
                     .scaleEffect(imageScale)
                 // MARK: - 1. TAP GESTURE
@@ -89,7 +90,7 @@ struct ContentView: View {
             .navigationBarTitleDisplayMode(.inline)
             .onAppear {
                 withAnimation(.linear(duration: 1)){
-                    isAnimation = true
+                    isAnimating = true
                 }
             }
             // MARK: - INFO PANEL
@@ -146,10 +147,42 @@ struct ContentView: View {
                     .padding(EdgeInsets(top: 12, leading: 20, bottom: 12, trailing: 20))
                     .background(.ultraThinMaterial)
                     .cornerRadius(12)
-                    .opacity(isAnimation ? 1 : 0)
+                    .opacity(isAnimating ? 1 : 0)
                 }
                     .padding(.bottom,30)
                 ,alignment: .bottom
+            )
+            // MARK: - DEAWER
+            .overlay(
+                HStack(spacing: 12) {
+                    
+                    // MARK: - DRAWER HANDLE
+                    
+                    Image(systemName:isDrawerOpen ?  "chevron.compact.right" : "chevron.compact.left")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(height: 40)
+                        .padding(8)
+                        .foregroundStyle(.secondary)
+                        .onTapGesture {
+                            withAnimation(.easeOut) {
+                                isDrawerOpen.toggle()
+                            }
+                        }
+                    
+                    // MARK: - THUMBNAILS
+                    
+                    Spacer()
+                    
+                } //: DRAWER
+                    .padding(EdgeInsets(top: 16, leading: 8, bottom: 16, trailing: 8))
+                    .background(.ultraThinMaterial)
+                    .cornerRadius(12)
+                    .opacity(isAnimating ? 1 : 0)
+                    .frame(width:260)
+                    .padding(.top, UIScreen.main.bounds.height / 12)
+                    .offset(x: isDrawerOpen ? 20 : 215)
+                ,alignment: .topTrailing
             )
         } //: NAVIGATION
         .navigationViewStyle(.stack)
